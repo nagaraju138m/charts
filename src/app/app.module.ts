@@ -12,12 +12,14 @@ import { ToastModule } from "primeng/toast";
 import { RippleModule } from "primeng/ripple";
 import { ImageModule } from "primeng/image";
 import { RoundComponent } from './round/round.component';
+import { PolarCHartComponent } from './polar-chart/polar-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChartOneComponent,
-    RoundComponent
+    RoundComponent,
+    PolarCHartComponent
   ],
   imports: [
     BrowserModule,
